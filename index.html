@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ptryodal Store</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+  }
+  header {
+    background: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 { margin: 0; }
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  .section-title {
+    font-size: 1.5em;
+    margin-top: 40px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .card {
+    background: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  .price {
+    color: #38bdf8;
+    font-weight: 600;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background: #0ea5e9;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🌐 Ptryodal Store</h1>
+    <p>Panel & Jasa Pembuatan Script Bot Telegram & WhatsApp</p>
+  </header>
+
+  <div class="container">
+
+    <h2 class="section-title">🧩 Panel Ptryodal</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Ptryodal+Basic" alt="Ptryodal Basic">
+        <div class="card-content">
+          <h3>Ptryodal Basic</h3>
+          <p>Paket panel level basic. Cocok untuk pemula.</p>
+          <p class="price">Rp2.000 / bulan</p>
+          <a href="https://t.me/satziniera?text=Halo,%20saya%20ingin%20beli%20Ptryodal%20Basic" class="btn">Pesan via Telegram</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Ptryodal+Premium" alt="Ptryodal Premium">
+        <div class="card-content">
+          <h3>Admin Ptryodal </h3>
+          <p>Panel dengan fitur premium dan performa cepat.</p>
+          <p class="price">Rp5.000 / bulan</p>
+          <a href="https://t.me/satziniera?text=Halo,%20saya%20ingin%20beli%20Ptryodal%20Premium" class="btn">Pesan via Telegram</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Ptryodal+Reseller" alt="Ptryodal Reseller">
+        <div class="card-content">
+          <h3>Ptryodal Reseller</h3>
+          <p>Untuk kamu yang ingin jadi reseller panel Ptryodal.</p>
+          <p class="price">Rp6.000 / bulan</p>
+          <a href="https://t.me/username_telegram_anda?text=Halo,%20saya%20ingin%20daftar%20Ptryodal%20Reseller" class="btn">Hubungi Admin</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">🤖 Jasa Pembuatan Script Bot</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Bot+Telegram" alt="Bot Telegram">
+        <div class="card-content">
+          <h3>Jasa Pembuatan Bot Telegram</h3>
+          <p>Kami buat bot Telegram sesuai kebutuhan kamu — mulai dari auto reply hingga panel admin.</p>
+          <p class="price">Mulai Rp25.000</p>
+          <a href="https://t.me/satziniera?text=Halo,%20saya%20ingin%20buat%20bot%20Telegram" class="btn">Pesan via Telegram</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200?text=Bot+WhatsApp" alt="Bot WhatsApp">
+        <div class="card-content">
+          <h3>Jasa Pembuatan Bot WhatsApp</h3>
+          <p>Buat bot WhatsApp custom dengan fitur otomatisasi lengkap.</p>
+          <p class="price">Mulai Rp15.000</p>
+          <a href="https://t.me/satziniera?text=Halo,%20saya%20ingin%20buat%20bot%20WhatsApp" class="btn">Pesan via Telegram</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
